@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ResourceBorrowing.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="/ResourceBorrowing/ResourceBorrowing/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet">
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <%--<asp:HyperLink runat="server" ID="Logo" class="navbar-brand" href="#" Width="140px" />--%>  <%--J20180605--%>
+                    <asp:HyperLink runat="server" ID="Logo" class="navbar-brand" href="#" ImageUrl="~/Content/wvlogo_en.jpg" />
+
+                    <asp:HyperLink runat="server" ID="SystemName" class="navbar-brand" href="#" />
+                    <asp:Label runat="server" ID="lblDebugMode" />
+                </div>
+                <%--<div class="navbar-collapse collapse">--%>
+                <ul class="nav navbar-nav">
+                    <li><a runat="server" href="~/" id="Home" visible="true">Home</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" runat="server" class="dropdown-toggle" data-toggle="dropdown" id="ClientMaintenance">Clients
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" href="~/Clients/Clients" id="Client" visible="true" title="Clients & Contact Persons">Clients & Contact Persons</a></li>
+                            <li><a runat="server" href="~/Clients/ClientTypes" id="ClientType" visible="true" title="Client Types">Client Types</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" runat="server" class="dropdown-toggle" data-toggle="dropdown" id="ItemMaintenance">Items
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" href="~/Items/Items" id="Item" visible="true" title="Items">Items</a></li>
+                            <li><a runat="server" href="~/Items/ItemUnits" id="A1" visible="true" title="Item Units">Item Units</a></li>
+                            <li><a runat="server" href="~/Items/ItemTypes" id="ItemType" visible="true" title="Item Types">Item Types</a></li>
+                            <li><a runat="server" href="~/Items/ItemLanguages" id="ItemLanguage" visible="true" title="Item Languages">Item Languages</a></li>
+                            <li><a runat="server" href="~/Items/ItemObsoleteReasons" id="ItemObsoleteReason" visible="true" title="Item Obsolete Reasons">Item Obsolete Reasons</a></li>
+                            <%--                            <li><a runat="server" href="~/Report/PrintItemList" id="PrintItemList" visible="true" title="Print Item List">Print Item List</a></li>--%>
+                        </ul>
+                    </li>
+
+
+
+                    <li><a runat="server" href="~/Transaction/Transaction" id="Transaction" visible="true" title="Transaction">Transactions</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" runat="server" class="dropdown-toggle" data-toggle="dropdown" id="Report">Reports
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" href="~/Report/OverdueUnfulfilledReport" id="OverdueUnfulfilledReport" visible="true" title="Overdue and Unfulfilled Report">Overdue and Unfulfilled Report</a></li>
+                            <li><a runat="server" href="~/Report/TransactionDetailsReport" id="TransactionDetailsReport" visible="true" title="Transaction Details Report">Transaction Details Report</a></li>
+                            <li><a runat="server" href="~/Report/PrintItemList" id="PrintItemList" visible="true" title="Print Item List">Print Item List</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" runat="server" class="dropdown-toggle" data-toggle="dropdown" id="AccountMaintenance">Maintenance
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" href="~/Account/UserMaintenance" id="UserMaintenance" visible="true" title="User Maintenance Page">User Maintenance</a></li>
+                            <li><a runat="server" href="~/Account/DeptMaintenance" id="DeptMaintenance" visible="true" title="Department Maintenance Page">Department Maintenance </a></li>
+                            <li><a runat="server" href="~/Account/RoleMaintenance" id="RoleMaintenance" visible="true" title="Role Maintenance Page">Role Maintenance</a></li>
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainLogin" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainChangePassword" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContentAdmin" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainResetPassword" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainRequestResetPassword" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MaintenanceContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainTesting" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <div class="navbar-left">&copy; <%: DateTime.Now.Year %> - WVHK IT </div>
+                <div class="loginDisplay navbar-right">
+                    <asp:MultiView ID="LoginView" ActiveViewIndex="0" runat="Server">
+                        <asp:View ID="Anonymous" runat="Server">
+                            [ <a href="~/Account/Login" id="HeadAnonymousLoginStatus" runat="server">Login</a> ]
+                        </asp:View>
+                        <asp:View ID="LoggedIn" runat="Server">
+                            <asp:Label ID="Label1" runat="server" ForeColor="Black" Text="Welcome" />
+                            <span class="bold">
+                                <asp:Label ID="Username" runat="server" ForeColor="Black" />
+                                <asp:Label ID="LoginName" runat="server" ForeColor="Black" />
+                            </span>
+                            <asp:Label ID="Label2" runat="server" ForeColor="Black" Text=", login at " />
+                            <asp:Label ID="LoginDate" runat="server" ForeColor="Black" />
+                            <asp:Label ID="lblIPAdr" runat="server" ForeColor="Black" />
+                            <br />
+                            <asp:Label ID="lblDebug" runat="server" ForeColor="Black" />
+                            <asp:Label ID="lblDept" runat="server" ForeColor="Black" />
+                            <br />
+                            <asp:Label ID="lblRole" runat="server" ForeColor="Black" />
+                            <br />
+                            <asp:Label ID="lblEmailAddress" runat="server" ForeColor="Black" />
+                            <br />
+                            <asp:HyperLink NavigateUrl="~/Account/Logout" ID="hypLogout" runat="server" Text="[Logout]" Font-Bold="true" ForeColor="Black" />
+                            <asp:HyperLink NavigateUrl="~/Account/ChangePassword" ID="hypChgPwd" runat="server" Text="[Change Password]" ForeColor="Black" />
+                            <asp:Label ID="IsAdmin" runat="server" />
+                        </asp:View>
+                    </asp:MultiView>
+                </div>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

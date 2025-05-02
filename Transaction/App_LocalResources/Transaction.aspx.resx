@@ -1,0 +1,1740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTranBtnResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="AddTranBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BorrowingQtyResource1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BorrowingQtyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>ItemID</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>ItemNo</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="btnAdd_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="btnAdd_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAdd_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="btnAdd_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="btnEdit_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="btnEdit_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_GetSelectedResource1.Text" xml:space="preserve">
+    <value>Edit Selected Item(s)</value>
+  </data>
+  <data name="btnEdit_GetSelectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranAddItemResource1.Text" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="btnEdit_TranAddItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranItemFilter_SelectAllLangResource1.Text" xml:space="preserve">
+    <value>[select all]</value>
+  </data>
+  <data name="btnEdit_TranItemFilter_SelectAllLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranItemFilter_SelectAllTypeResource1.Text" xml:space="preserve">
+    <value>[select all]</value>
+  </data>
+  <data name="btnEdit_TranItemFilter_SelectAllTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranItemFilter_UnselectAllLangResource1.Text" xml:space="preserve">
+    <value>[unselect all]</value>
+  </data>
+  <data name="btnEdit_TranItemFilter_UnselectAllLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranItemFilterClearResource1.Text" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="btnEdit_TranItemFilterClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEdit_TranItemFilterResource1.Text" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="btnEdit_TranItemFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditBookingResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnEditBookingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGetSelectedResource1.Text" xml:space="preserve">
+    <value>Add Selected Item(s)</value>
+  </data>
+  <data name="btnGetSelectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarAdd_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarEdit_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToBorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.NextMonthText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.PrevMonthText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.SelectMonthText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.SelectWeekText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="CalendarFilter_ToReturnDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxList_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxList_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxList_OverdueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxList_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxList_TranStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxListEdit_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxListEdit_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxListEdit_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAddItemResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAddItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEdit_TranItemFilter_LangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEdit_TranItemFilter_TypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEditItemResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEditItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEditItemResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEditItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTranItemFilter_LangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTranItemFilter_TypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateTranBtnResource1.Text" xml:space="preserve">
+    <value>Create Transaction</value>
+  </data>
+  <data name="CreateTranBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateTranValidationSummary_AddResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateTranValidationSummary_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateTranValidationSummary_EditResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateTranValidationSummary_EditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAction_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAdd_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAdd_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAdd_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEdit_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEdit_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEdit_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEdit_TranItemFilter_DeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEdit_TranTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFilter_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFilter_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTranClientFilter_ClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTranItemFilter_DeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTranType_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErrorMessageAddResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErrorMessageEditResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportCSVBtnResource1.Text" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="ExportCSVBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailureAddTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailureEditTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailureFilterTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_SelectAllTranStatusResource1.Text" xml:space="preserve">
+    <value>[Select All]</value>
+  </data>
+  <data name="Filterbtn_SelectAllTranStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_ToBorrowDateFromResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="Filterbtn_ToBorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_ToBorrowDateToResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="Filterbtn_ToBorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_ToReturnDateFromResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="Filterbtn_ToReturnDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_ToReturnDateToResource1.Text" xml:space="preserve">
+    <value>[Pick Date]</value>
+  </data>
+  <data name="Filterbtn_ToReturnDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filterbtn_UnselectAllTranStatusResource1.Text" xml:space="preserve">
+    <value>[Unselect All]</value>
+  </data>
+  <data name="Filterbtn_UnselectAllTranStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterBtnResource1.Text" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="FilterBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterClearBtnResource1.Text" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="FilterClearBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterClientValidationSummaryResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterClientValidationSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterTransactionValidationSummaryResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterTransactionValidationSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewClientFormsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewClientFormsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewClientFormsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewEdit_ItemsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewEdit_ItemsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewEdit_ItemsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewItemsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewItemsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewItemsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewTransactionResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewTransactionResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewTransactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSelectedResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSelectedResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSelectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvShow_SelectedResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvShow_SelectedResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvShow_SelectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAction_AddResource1.Text" xml:space="preserve">
+    <value>Action:</value>
+  </data>
+  <data name="lblAction_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>From:    </value>
+  </data>
+  <data name="lblAdd_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>To:    </value>
+  </data>
+  <data name="lblAdd_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_ClientNameResource1.Text" xml:space="preserve">
+    <value>Client Name:    </value>
+  </data>
+  <data name="lblAdd_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value>Contact Person Name:    </value>
+  </data>
+  <data name="lblAdd_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_ContactPersonNameValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_ContactPersonNameValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_InternalUserDeptResource1.Text" xml:space="preserve">
+    <value>Internal User Dept.:    </value>
+  </data>
+  <data name="lblAdd_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_InternalUserNameResource1.Text" xml:space="preserve">
+    <value>Internal User Name:    </value>
+  </data>
+  <data name="lblAdd_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdd_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>No. Of Lag Days:</value>
+  </data>
+  <data name="lblAdd_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>From:    </value>
+  </data>
+  <data name="lblEdit_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>To:    </value>
+  </data>
+  <data name="lblEdit_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ClientNameResource1.Text" xml:space="preserve">
+    <value>Client Name:    </value>
+  </data>
+  <data name="lblEdit_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value>Contact Person Name:    </value>
+  </data>
+  <data name="lblEdit_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ContactPersonNameValue_OldResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ContactPersonNameValue_OldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ContactPersonNameValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_ContactPersonNameValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_InternalUserDeptResource1.Text" xml:space="preserve">
+    <value>Internal User Dept.:    </value>
+  </data>
+  <data name="lblEdit_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_InternalUserName_OldResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_InternalUserName_OldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_InternalUserNameResource1.Text" xml:space="preserve">
+    <value>Internal User Name:    </value>
+  </data>
+  <data name="lblEdit_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>No. Of Lag Days:</value>
+  </data>
+  <data name="lblEdit_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_DeptResource1.Text" xml:space="preserve">
+    <value>Department:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_DeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_GlobalUseResource1.Text" xml:space="preserve">
+    <value>Global Use:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_IDResource1.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="lblEdit_TranItemFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_ItemCodeResource1.Text" xml:space="preserve">
+    <value>Item Code: </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_ItemCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_ItemCopiesIDResource1.Text" xml:space="preserve">
+    <value>Item Copies ID: </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_ItemCopiesIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_LangResource1.Text" xml:space="preserve">
+    <value>Language:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_LangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_NeedApprovalResource1.Text" xml:space="preserve">
+    <value>Need Approval:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>No Of Lag Day:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_RequestDateFromResource1.Text" xml:space="preserve">
+    <value>Request Date From:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_RequestDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_RequestDateToResource1.Text" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="lblEdit_TranItemFilter_RequestDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_StatusResource1.Text" xml:space="preserve">
+    <value>Status:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilter_TypeResource1.Text" xml:space="preserve">
+    <value>Type:    </value>
+  </data>
+  <data name="lblEdit_TranItemFilter_TypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranItemFilterResource1.Text" xml:space="preserve">
+    <value>Edit Item</value>
+  </data>
+  <data name="lblEdit_TranItemFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranTypeResource1.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="lblEdit_TranTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranTypeValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEdit_TranTypeValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ClientNameResource1.Text" xml:space="preserve">
+    <value>Client Name:    </value>
+  </data>
+  <data name="lblFilter_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value>Contact Person Name:    </value>
+  </data>
+  <data name="lblFilter_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_IDResource1.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="lblFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_InternalUserDeptResource1.Text" xml:space="preserve">
+    <value>Internal User Dept.:    </value>
+  </data>
+  <data name="lblFilter_InternalUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_InternalUserNameResource1.Text" xml:space="preserve">
+    <value>Internal User Name:    </value>
+  </data>
+  <data name="lblFilter_InternalUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_OverdueResource1.Text" xml:space="preserve">
+    <value>Overdue:    </value>
+  </data>
+  <data name="lblFilter_OverdueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_RefNoResource1.Text" xml:space="preserve">
+    <value>Ref No.: </value>
+  </data>
+  <data name="lblFilter_RefNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ToBorrowDateFromResource1.Text" xml:space="preserve">
+    <value>To Borrow Date (From):    </value>
+  </data>
+  <data name="lblFilter_ToBorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ToBorrowDateToResource1.Text" xml:space="preserve">
+    <value>To Borrow Date (To):    </value>
+  </data>
+  <data name="lblFilter_ToBorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ToReturnDateFromResource1.Text" xml:space="preserve">
+    <value>To Return Date (From):    </value>
+  </data>
+  <data name="lblFilter_ToReturnDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_ToReturnDateToResource1.Text" xml:space="preserve">
+    <value>To Return Date (To):    </value>
+  </data>
+  <data name="lblFilter_ToReturnDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilter_TranStatusResource1.Text" xml:space="preserve">
+    <value>Status:    </value>
+  </data>
+  <data name="lblFilter_TranStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilterResource1.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="lblFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectClientResource1.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblSelectClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilter_ClientNameResource1.Text" xml:space="preserve">
+    <value>Client Name:</value>
+  </data>
+  <data name="lblTranClientFilter_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilter_ClientPhoneNoResource1.Text" xml:space="preserve">
+    <value>Client Phone No.: </value>
+  </data>
+  <data name="lblTranClientFilter_ClientPhoneNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilter_ClientTypeResource1.Text" xml:space="preserve">
+    <value>Client Type:</value>
+  </data>
+  <data name="lblTranClientFilter_ClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilter_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value>Contact Person Name:</value>
+  </data>
+  <data name="lblTranClientFilter_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilter_ContactPersonPhoneNoResource1.Text" xml:space="preserve">
+    <value>Contact Person Phone No.: </value>
+  </data>
+  <data name="lblTranClientFilter_ContactPersonPhoneNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranClientFilterResource1.Text" xml:space="preserve">
+    <value>Search Client</value>
+  </data>
+  <data name="lblTranClientFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_DeptResource1.Text" xml:space="preserve">
+    <value>Department:    </value>
+  </data>
+  <data name="lblTranItemFilter_DeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_GlobalUseResource1.Text" xml:space="preserve">
+    <value>Global Use:    </value>
+  </data>
+  <data name="lblTranItemFilter_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_IDResource1.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="lblTranItemFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_ItemCodeResource1.Text" xml:space="preserve">
+    <value>Item Code: </value>
+  </data>
+  <data name="lblTranItemFilter_ItemCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_ItemCopiesIDResource1.Text" xml:space="preserve">
+    <value>Item Copies ID: </value>
+  </data>
+  <data name="lblTranItemFilter_ItemCopiesIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_LangResource1.Text" xml:space="preserve">
+    <value>Language:    </value>
+  </data>
+  <data name="lblTranItemFilter_LangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_NeedApprovalResource1.Text" xml:space="preserve">
+    <value>Need Approval:    </value>
+  </data>
+  <data name="lblTranItemFilter_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>No Of Lag Day:    </value>
+  </data>
+  <data name="lblTranItemFilter_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_RequestDateFromResource1.Text" xml:space="preserve">
+    <value>Request Date From:    </value>
+  </data>
+  <data name="lblTranItemFilter_RequestDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_RequestDateToResource1.Text" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="lblTranItemFilter_RequestDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_StatusResource1.Text" xml:space="preserve">
+    <value>Status:    </value>
+  </data>
+  <data name="lblTranItemFilter_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilter_TypeResource1.Text" xml:space="preserve">
+    <value>Type:    </value>
+  </data>
+  <data name="lblTranItemFilter_TypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranItemFilterResource1.Text" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="lblTranItemFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranType_AddResource1.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="lblTranType_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranType_AddValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTranType_AddValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Internal User</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Internal User</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>BOOK</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>BORROW</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Resource Borrowing System</value>
+  </data>
+  <data name="panelClientListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelClientListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelEdit_ItemListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelEdit_ItemListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelItemListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelItemListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintTranBtnResource1.Text" xml:space="preserve">
+    <value>Save &amp; Print</value>
+  </data>
+  <data name="PrintTranBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pTransactionListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pTransactionListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_AddResource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of Borrow Date (From)! </value>
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_AddResource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_EditResource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of Borrow Date (From)! </value>
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_EditResource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorBDateFrm_EditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_AddResource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of Borrow Date (To)! </value>
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_AddResource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_EditResource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of Borrow Date (To)! </value>
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_EditResource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorBDateTo_EditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorTBDateFrm_Edit_1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of To Borrow Date (From)! </value>
+  </data>
+  <data name="RegularExpressionValidatorTBDateFrm_Edit_1Resource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorTBDateFrm_Edit_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorTBDateTo_Edit_1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of To Borrow Date (To)! </value>
+  </data>
+  <data name="RegularExpressionValidatorTBDateTo_Edit_1Resource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorTBDateTo_Edit_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorTRDateFrm_Edit_1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of To Return Date (From)! </value>
+  </data>
+  <data name="RegularExpressionValidatorTRDateFrm_Edit_1Resource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorTRDateFrm_Edit_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorTRDateTo_Edit_1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format of To Return Date (To)! </value>
+  </data>
+  <data name="RegularExpressionValidatorTRDateTo_Edit_1Resource1.Text" xml:space="preserve">
+    <value>* Wrong Date Format!</value>
+  </data>
+  <data name="RegularExpressionValidatorTRDateTo_Edit_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Borrowing Qty</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="TranAddItemBtnResource1.Text" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="TranAddItemBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranClientFilterBtnResource1.Text" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="TranClientFilterBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranClientFilterClearBtnResource1.Text" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="TranClientFilterClearBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilter_UnselectAllTypeResource1.Text" xml:space="preserve">
+    <value>[unselect all]</value>
+  </data>
+  <data name="TranItemFilter_UnselectAllTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterbtn_SelectAllLangResource1.Text" xml:space="preserve">
+    <value>[select all]</value>
+  </data>
+  <data name="TranItemFilterbtn_SelectAllLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterbtn_SelectAllTypeResource1.Text" xml:space="preserve">
+    <value>[select all]</value>
+  </data>
+  <data name="TranItemFilterbtn_SelectAllTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterbtn_UnselectAllLangResource1.Text" xml:space="preserve">
+    <value>[unselect all]</value>
+  </data>
+  <data name="TranItemFilterbtn_UnselectAllLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterbtn_UnselectAllTypeResource1.Text" xml:space="preserve">
+    <value>[unselect all]</value>
+  </data>
+  <data name="TranItemFilterbtn_UnselectAllTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterBtnResource1.Text" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="TranItemFilterBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranItemFilterClearBtnResource1.Text" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="TranItemFilterClearBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TranSelectClientBtnResource1.Text" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="TranSelectClientBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>2017/08/04</value>
+  </data>
+  <data name="txtAdd_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>2017/08/11</value>
+  </data>
+  <data name="txtAdd_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_ClientNameDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_ClientNameDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_ClientNameValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_ClientNameValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_ClientResource1.Text" xml:space="preserve">
+    <value>For Client:</value>
+  </data>
+  <data name="txtAdd_ClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_InternalUserResource1.Text" xml:space="preserve">
+    <value>For Internal User:</value>
+  </data>
+  <data name="txtAdd_InternalUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdd_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtAdd_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_BorrowDateFromResource1.Text" xml:space="preserve">
+    <value>2017/08/04</value>
+  </data>
+  <data name="txtEdit_BorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_BorrowDateToResource1.Text" xml:space="preserve">
+    <value>2017/08/11</value>
+  </data>
+  <data name="txtEdit_BorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_ClientNameDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_ClientNameDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_ClientResource1.Text" xml:space="preserve">
+    <value>For Client:</value>
+  </data>
+  <data name="txtEdit_ClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_InternalUserResource1.Text" xml:space="preserve">
+    <value>For Internal User:</value>
+  </data>
+  <data name="txtEdit_InternalUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtEdit_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranDetails_IDResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtEdit_TranDetails_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranDetails_TranIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranDetails_TranIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_GlobalUseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_IDResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtEdit_TranItemFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemCopiesIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemCopiesIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemLangIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemLangIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemTypeIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_ItemTypeIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_NeedApprovalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RedirectStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RedirectStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RequestDateFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RequestDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RequestDateToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_RequestDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_StatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEdit_TranItemFilter_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ClientNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ClientResource1.Text" xml:space="preserve">
+    <value>For Client:</value>
+  </data>
+  <data name="txtFilter_ClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_IDResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_InternalUserResource1.Text" xml:space="preserve">
+    <value>For Internal User:</value>
+  </data>
+  <data name="txtFilter_InternalUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_OverdueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_OverdueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_RedirectStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_RedirectStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_RefNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_RefNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToBorrowDateFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToBorrowDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToBorrowDateToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToBorrowDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToReturnDateFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToReturnDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToReturnDateToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_ToReturnDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_TranStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFilter_TranStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ClientNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ClientPhoneNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ClientPhoneNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ContactPersonNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ContactPersonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ContactPersonPhoneNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_ContactPersonPhoneNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_RedirectStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranClientFilter_RedirectStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_GlobalUseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_GlobalUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_IDResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTranItemFilter_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemCopiesIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemCopiesIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemLangIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemLangIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemTypeIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_ItemTypeIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_NeedApprovalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_NeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_NoOfLagDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_NoOfLagDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RedirectStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RedirectStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RequestDateFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RequestDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RequestDateToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_RequestDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_StatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTranItemFilter_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
